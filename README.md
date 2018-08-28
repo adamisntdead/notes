@@ -12,7 +12,7 @@ $$
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 $$
 
-## How To Edit THis
+## How To Edit This
 
 First, you should clone it:
 
