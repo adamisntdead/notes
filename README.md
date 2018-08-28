@@ -1,6 +1,6 @@
 # School Notes
 
-> My notes for 5th and 6th year, imortalized in git 
+> My notes for 5th and 6th year, immortalized in git 
 
 ## How This Looks
 
