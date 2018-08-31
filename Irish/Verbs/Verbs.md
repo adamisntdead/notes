@@ -25,8 +25,32 @@
 
 ## Sroich - To Arrive
 
-**TODO**
+**Aimir Chaite**
+
+- Shroich mé
+- Shroicheamar
+- Níor shroich
+- Ar shroich?
+
+**Aimsir Laithereach**
+
+- Sroichim
+- Sroichimid
+- Ní sroichim
+- An sroicheann?
+
+**Aimsire Fhaistineach**
+
+- Sroichfidh mé
+- Sroichfimid
+- Ní sroichfidh
+- An sroichfidh
 
 ## Ceannaigh - To Buy
 
-**TODO**
+**Aimsir Chaite**
+
+- Cheannaigh mé
+- Cheannaíomar
+- Ní cheannaigh mé
+- Ar cheannaigh?
