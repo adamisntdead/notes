@@ -1,6 +1,6 @@
 # School Notes
 
-> My notes for 5th and 6th year, immortalized in git 
+> My notes for 5th and 6th year, immortalized in git
 
 ## How This Looks
 
@@ -22,3 +22,7 @@ $ git clone https://github.com/adamisntdead/notes.git
 
 Then you can edit it in any text editor. I would recommend a plugin/editor
 that supports using LaTeX in the preview.
+
+## LaTeX Class
+
+The notes that are written in latex are using a modified version of [this class](https://github.com/vhbelvadi/LaTeX-lecture-notes-class)
