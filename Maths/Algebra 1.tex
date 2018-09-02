@@ -1,0 +1,67 @@
+\documentclass[oneside,english,course]{lecture}
+
+\usepackage{polynom}
+
+\title{Algebra 1}
+\subtitle{Leaving Cert Higher Level Maths} 
+\shorttitle{LC HL Maths - Algebra 1}
+\subject{Maths}
+\author{Adam Kelly}
+\email{adamkelly2201@gmail.com}
+\date{28}{08}{2018}
+\dateend{28}{08}{2018}
+\attn{These notes are not endorsed by any teachers, and I have modified them and added my own
+details to these after the classes.
+All errors are almost surely mine.}
+\morelink{github.com/adamisntdead/notes} 
+
+\begin{document}
+
+\section{Polynomial Expressions}
+
+\lecture{28}{08}{2018}
+
+\begin{definition}[Polynomial]
+	A \textbf{polynomial} is an expression of the form:
+
+	$$
+		a_x x^n + a_{n-1} x^{n - 1} + \dots + a^2 x^2 + a_1 x + a_0
+	$$
+
+	Where $a_i \in \mathbb{R}$; $i = 0, 1, 2, \dots, n$, $n \in \mathbf{N}$.
+\end{definition}
+
+There are a few types of polynomial which are useful to know:
+
+\begin{enumerate}[a)]
+	\item A \textbf{linear} polynomial is of degree 1 ($ax + b$)
+	\item A \textbf{quadratic} polynomial is of degree 2 ($ax^2 + bx + c$)
+	\item A \textbf{cubic} polynomial is of degree 3 ($ax^3 + bx^2 + cx + d$)
+\end{enumerate}
+
+\begin{definition}[Degree]
+	The \textbf{degree} of a polynomial is the highest power of its monomials with non-zero coefficients.
+\end{definition}
+
+\subsection{Addition And Subtraction Of Polynomial Expressions}
+
+Adding and subtracting polynomials involves the combination of like terms.
+
+\begin{definition}[Like terms]
+	Monomials that contain the same variable raised to the same power.
+\end{definition}
+
+\begin{theorem}[Difference of two squares]
+	An expression of the form $a^2 - b^2$ can be factored into $(a + b)(a - b)$
+\end{theorem}
+
+\begin{proof}
+	\begin{align*}
+		  & (a + b)(a - b)      \\
+		= & a(a - b) + b(a - b) \\
+		= & a^2 - ab + ab -b^2  \\
+		= & a^2 - b^2
+	\end{align*}
+\end{proof}
+
+\end{document}
