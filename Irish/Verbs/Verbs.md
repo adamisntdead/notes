@@ -2,55 +2,29 @@
 
 ## Ól - To Drink
 
-**Aimsir Chaite**
+| **Aimsir Chaite** | **Aimsir Láithreach** | **Aimsir Fháistineach** |
+| ----------------- | --------------------- | ----------------------- |
+| D'ól mé           | Ólaim                 | Ólfaidh mé              |
+| D'ólamar          | Ólaimid               | Ólfaimid                |
+| Níor ól           | Ní ólaim              | Ní ólfaidh              |
+| Ar ól             | An ólann              | An ólfaimid             |
 
-- D'ól mé
-- D'ólamar
-- Níor ól
-- Ar ól?
-
-**Aimsir Laithereach**
-
-- Ólaim
-- Ólaimid
-- Ní ólaim
-- An ólann?
-
-**Aimsir Fhaistineach**
-
-- Ólfaidh mé
-- Ólfaimid
-- Ní ólfaidh
-- Án ólfaimid
 
 ## Sroich - To Arrive
 
-**Aimir Chaite**
+| **Aimsir Chaite** | **Aimsir Láithreach** | **Aimsir Fháistineach** |
+| ----------------- | --------------------- | ----------------------- |
+| Shroich mé        | Sroicim               | Sroichfidh mé           |
+| Shroicheamar      | Sroichimid            | Sroichfimid             |
+| Níor shroich sí   | Ní shroicheann        | Ní shroichfidh          |
+| Ar shroich?       | An sroichimid         | An sroichfimid?         |
 
-- Shroich mé
-- Shroicheamar
-- Níor shroich
-- Ar shroich?
-
-**Aimsir Laithereach**
-
-- Sroichim
-- Sroichimid
-- Ní sroichim
-- An sroicheann?
-
-**Aimsire Fhaistineach**
-
-- Sroichfidh mé
-- Sroichfimid
-- Ní sroichfidh
-- An sroichfidh
 
 ## Ceannaigh - To Buy
 
-**Aimsir Chaite**
-
-- Cheannaigh mé
-- Cheannaíomar
-- Ní cheannaigh mé
-- Ar cheannaigh?
+| **Aimsir Chaite** | **Aimsir Láithreach** | **Aimsir Fháistineach** |
+| ----------------- | --------------------- | ----------------------- |
+| Cheannaigh mé     | Ceannaim              | Ceannóidh mé            |
+| Cheannaíomar      | Ceannaímid            | Ceannóimid              |
+| Níor cheannaigh   | Ní cheannaim          | Ní cheannóidh           |
+| Ar cheannaigh?    | An gceannaíonn        | An gceannóidh?          |
