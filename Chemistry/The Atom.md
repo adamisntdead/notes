@@ -41,7 +41,7 @@ The following conclusions were drawn
 - Cathode rays cause the glasses phosphor coating to glow
 - Cathode rays have enough energy to turn a paddle wheel
 
-### Thompson's Cathode Ray Experiment
+### Thomson's Cathode Ray Experiment
 
 At the end of the 19th century, J.J. Thomson tried to resolve some outlying issues with cathode rays.
 He constructed a cathode ray tube that allowed the use of two electrodes to show that the cathode rays had a negative charge.
@@ -49,3 +49,10 @@ He constructed a cathode ray tube that allowed the use of two electrodes to show
 ![Experiment diagram](https://files.mtstatic.com/site_4334/30348/0?Expires=1535734765&Signature=XDAtCXm23H0ylxIWXV~6EWPODAq8qeMZLhejOum~h6B62fj6rSnOgnkQ0quNugcjyKYIk0XGHDDIBd~5Nw3J6yGdKnMepUeDXYqKBqf234mVog6vE8ttcAdWuIFF31hcm3fEJ8cvQOKt9eIBWunWwB2a1Z-N7YopW~ksMn6cfZE_&Key-Pair-Id=APKAJ5Y6AV4GI7A555NA)
 
 From this Thomson proposed a **plum pudding** model of the atom
+
+### Millikan's Oil Drop Experiment
+
+After Thomson's experiment, it was not universally accepted that subatomic particles exist.
+Millikan wanted to measure the charge of an electron (which could also give the mass).
+
+Mullikan setup an experiment that had an electric field
