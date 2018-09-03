@@ -55,4 +55,19 @@ From this Thomson proposed a **plum pudding** model of the atom
 After Thomson's experiment, it was not universally accepted that subatomic particles exist.
 Millikan wanted to measure the charge of an electron (which could also give the mass).
 
-Mullikan setup an experiment that had an electric field
+- Tiny droplets of oil were sprayed between two charged metal plates.
+- X-rays were used to ionise the air between the plates (the molecules in the air lost electrons and formed ions)
+- When the oil droplets fell through the air they picked up these electrons, becoming negatively charged.
+- Using a microscope, a particular oil droplet was focused on, and millikan observed that the negatively charged droplet was attracted to the positive plate.
+- The charge of the plates were adjusted until the oil droplet was stationary, and the size of the electron's charge
+
+![Diagram](https://lh6.googleusercontent.com/-4EWgjurl8WM/TXRsQZQ49UI/AAAAAAAAAco/bZfkBqaER3g/s1600/big+mod.JPG)
+
+### The Plum Pudding Model of the Atom
+
+After his experiments, Thomson proposed a simple model of the atom:
+
+- An atom like a sphere of positive
+- Electrons are embedded in the sphere at random.
+
+![Plum Pudding](https://d2gne97vdumgn3.cloudfront.net/api/file/G513BNVbRkaYgB63CplV)
