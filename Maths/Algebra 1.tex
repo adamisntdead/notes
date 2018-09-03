@@ -1,6 +1,7 @@
-\documentclass[oneside,english,course]{lecture}
+\documentclass[english,seminar]{lecture}
 
 \usepackage{polynom}
+\usepackage{cancel}
 
 \title{Algebra 1}
 \subtitle{Leaving Cert Higher Level Maths} 
@@ -9,7 +10,7 @@
 \author{Adam Kelly}
 \email{adamkelly2201@gmail.com}
 \date{28}{08}{2018}
-\dateend{28}{08}{2018}
+\dateend{2}{09}{2018}
 \attn{These notes are not endorsed by any teachers, and I have modified them and added my own
 details to these after the classes.
 All errors are almost surely mine.}
@@ -31,6 +32,11 @@ All errors are almost surely mine.}
 	Where $a_i \in \mathbb{R}$; $i = 0, 1, 2, \dots, n$, $n \in \mathbf{N}$.
 \end{definition}
 
+\begin{definition}[Degree]
+	The \textbf{degree} of a polynomial is the highest power of its monomials with non-zero coefficients.
+\end{definition}
+
+\\
 There are a few types of polynomial which are useful to know:
 
 \begin{enumerate}[a)]
@@ -39,8 +45,20 @@ There are a few types of polynomial which are useful to know:
 	\item A \textbf{cubic} polynomial is of degree 3 ($ax^3 + bx^2 + cx + d$)
 \end{enumerate}
 
-\begin{definition}[Degree]
-	The \textbf{degree} of a polynomial is the highest power of its monomials with non-zero coefficients.
+\begin{definition}[Coefficent]
+	A quantity that multiplies the variable in an algebraic expression (for example $4$ in $4x^3$).
+\end{definition}
+
+\begin{definition}[Constant Term]
+	A term in an algebraic expression that does not contain any modifiable variables.
+\end{definition}
+
+\begin{definition}[Binomial]
+	An polynomial containing two terms.
+\end{definition}
+
+\begin{definition}[Trinomial]
+	An polynomial containing three terms.
 \end{definition}
 
 \subsection{Addition And Subtraction Of Polynomial Expressions}
@@ -51,17 +69,250 @@ Adding and subtracting polynomials involves the combination of like terms.
 	Monomials that contain the same variable raised to the same power.
 \end{definition}
 
+\begin{example}[Simplify]
+	$(6x^2 – 7x + 4) + (7x^2 – 9x + 8)$
+
+
+	\begin{align*}
+		  &(6x^2 – 7x + 4) + (7x^2 – 9x + 8)      \\
+		  &= (6x^2 + 7x^2) + (-7x - 9x) + (4 + 8) \\
+		  &= 13x^2 - 16x^2 + 12
+	\end{align*}
+\end{example}
+
+\begin{example}[Subtract]
+	$7x^3 – 6x^5 + 2x^2$ from $9x^5 – 6x^3 + 7x^2$
+
+
+	\begin{align*}
+		  &(9x^5 – 6x^3 + 7x^2) - (7x^3 – 6x^5 + 2x^2)         \\
+		  &= (9x^5 - (-6x^5)) + (-6x^3 - 7x^3) + (7x^2 - 2x^2) \\ 
+		  &= 15x^5 - 13x^3 + 5x^2
+	\end{align*}
+\end{example}
+
+\subsection{Multiplying Polynomial Expressions}
+
+Polynomials are multiplied using the distributive property of addition:
+
+$$
+a(b + c) = ab + ac
+$$
+
+\begin{example}[Simplify]
+	$(x + 4)(2x + 5)$
+
+
+	\begin{align*}
+		  &(x + 4)(2x + 5)      \\
+		  &= 2x^2 + 8x + 5x + 20 \\
+		  &= 2x^2 + 13x + 20
+	\end{align*}
+\end{example}
+
+\subsection{Dividing Polynomial Expressions}
+
+\lecture{30}{08}{2018}
+
+There are a few cases for the division of polynomials.
+Some of these are detailed below\\
+
+Remember, the following equalities \textbf{do not hold} when the quotient's denominator is zero.
+For example, if you have the expression $(2x + 2) \div (x + 1)$, and you simplify it to $2$, you must remember that this expression is \textbf{not equal} to two if $x = -1$, as that would be division by zero and thus undefined.
+
+\subsubsection{Denominator Is A Factor Of Each Term}
+
+If the denominator is a factor of each term of the numerator,
+the quotient can be simplified by dividing each term of the numerator by the denominator.
+
+\begin{example}[Simplify]
+	$(-16x^4 + 8x^2 + 2x) \div 2x$
+
+
+	\begin{align*}
+		&\frac{-16x^4 + 8x^2 + 2x}{2x}\\
+		&= \frac{-16x^4}{2x} + \frac{8x^2}{2x} + \frac{2x}{2x}\\
+		&= -7x^3 + 4x + 1
+	\end{align*}
+\end{example}
+
+\subsubsection{Denominator Is A Factor Of The Numerator}
+
+If the denominator is a factor of the numerator, the quotient can be simplified
+by factoring the numerator and then canceling out the factor.
+\margintext{For more on factoring, see section \ref{factoring}}
+
+\begin{example}[Simplify]
+	$(15x^2 + 22x + 8) \div (5x + 4)$
+
+
+	\begin{align*}
+	&\frac{15x^2 + 22x + 8}{5x + 4}	\\
+	&= \frac{(3x + 2)\cancel{(5x + 4)}}{\cancel{5x + 4}}\\
+	&= 3x + 2
+	\end{align*}
+\end{example}
+
+\subsubsection{Polynomial Long Division}
+
+
+If the other two methods don't work, you can use polynomial long division.
+This is a generalized version of the arithmetic technique called long division.
+
+\begin{example}[Simplify]\label{long-div-example}
+	$(x^3 + x^2 - 2x) \div (x - 1)$
+
+
+	\begin{center}
+		\polylongdiv{x^3 + x^2 - 2x}{x - 1}
+	\end{center}
+	
+	$$
+	\therefore \frac{x^3 + x^2 - 2x}{x - 1} = x^2 + 2x
+	$$
+\end{example}
+\\
+You should note that it is possible that it doesn't divide in evenly,
+in which case the division will leave a \emph{remainder}.
+This can just be added at the end. Here is an example of a remainder
+
+\begin{example}[Simplify]
+	$(x^3 + x^2 - 1) \div (x - 1)$
+
+
+	\begin{center}
+		\polylongdiv{x^3+x^2-1}{x-1}
+	\end{center}
+
+	$$
+	\therefore \frac{x^3 + x^2 - 1}{x - 1} = x^2 + 2x + 2 + \frac{1}{x - 1}
+	$$
+	
+\end{example}
+
+\subsubsection{Synthetic Division}
+
+If the denominator of the expression is $x - a$, where $a \in \mathbb{R}$, then you can use a 
+division technique called synthetic division.
+
+This technique is generally used in the process of finding the roots of a polynomial.
+
+\begin{example}[Complete]
+example \ref{long-div-example} using synthetic division.
+
+\begin{center}
+\polyhornerscheme[x=1]{x^3 + x^2 - 2x}
+\end{center}
+
+$$
+\therefore \frac{x^3 + x^2 - 2x}{x - 1} = x^2 + 2x
+$$
+
+\end{example}
+
+
+\section{Factorising Polynomial Expressions}\label{factoring}
+
+\lecture{31}{07}{18}
+
+\begin{definition}[Factor]
+	An algebraic factor is an expression that divides a polynomial leaving no remainder.
+\end{definition}
+\\
+
+Factorising is a very important technique in algebra.
+A few factoring techniques are shown below.
+
+\subsection{Highest Common Factor}
+
+This method can be done by looking for the highest common factor of each of the expressions and then working backwards from there.
+
+\begin{example}[Factor]
+	\begin{align*}
+		2x^2 + 6x &= 2x(x + 3)\\
+		15axy + 2xyb + 4xy &= 2xy(7a + b + 2)
+	\end{align*}
+\end{example}
+
+\subsection{Grouping}
+
+An expression can sometimes be factored by breaking the expression up into groups and factoring the individual parts.
+
+\begin{example}[Factor]
+	\begin{align*}
+		6x^2y + 3xy^2 -12x - 6y &= 3xy(2x + y) - 6(2x + y)\\
+		&= (2x + y)(2xy - 5)
+	\end{align*}
+\end{example}
+
+\subsection{Difference Of Two Squares}
+
 \begin{theorem}[Difference of two squares]
 	An expression of the form $a^2 - b^2$ can be factored into $(a + b)(a - b)$
 \end{theorem}
 
 \begin{proof}
 	\begin{align*}
-		  & (a + b)(a - b)      \\
-		= & a(a - b) + b(a - b) \\
-		= & a^2 - ab + ab -b^2  \\
-		= & a^2 - b^2
+		  (a + b)(a - b)
+		&= a(a - b) + b(a - b) \\
+		&= a^2 - ab + ab -b^2  \\
+		&= a^2 - b^2
 	\end{align*}
 \end{proof}
+
+\begin{example}[Factor]
+	\begin{align*}
+		x^2 - 36 &= (x + 6)(x - 6)\\
+		4x^2 - 81 &= (2x + 9)(2x - 9)\\
+		9x^3 - 81x &= 9x(x^2 - 9) = 9x(x + 3)(x - 3)\\
+		16x^4 - 1 &= (4x^2 + 1)(4x^2 - 1) = (4x^2 + 1)(2x + 1)(2x - 1)\\
+	\end{align*}	
+\end{example}
+
+\subsection{Difference Of Two Cubes}
+
+\begin{theorem}[Difference of two cubes]
+	An expression of the form $a^3 - b^3$ can be factored into $(a - b)(a^2 + ab + b^2)$	
+\end{theorem}
+
+\begin{proof}
+	\begin{align*}
+		  (a-b)(a^2 + ab +b^2 )
+		&= a(a^2 + ab +b^2 ) - b(a^2 + ab +b^2 ) \\
+		&= (a^3 + a^2 b + ab^2) - (a^2b + ab^2 + b^3)  \\
+		&= (a^3 + \cancel{a^2 b + ab^2}) - (\cancel{a^2b + ab^2} + b^3)  \\
+		&= a^3 - b^3
+	\end{align*}
+\end{proof}
+
+\begin{example}[Factor]
+	\begin{align*}
+		x^3 - 8 &= (x - 2)(x^2 + 2x + 4) \\
+		125x^3 - 27y^3 &= (5x - 3y)(25x^2 + 15xy + 9y^2)
+	\end{align*}	
+\end{example}
+
+\subsection{Sum Of Two Cubes}
+
+\begin{theorem}[Sum of two cubes]
+	An expression of the form $a^3 + b^3$ can be factored into $(a + b)(a^2 - ab + b^2)$	
+\end{theorem}
+
+\begin{proof}
+	\begin{align*}
+		  (a+b)(a^2 - ab +b^2 )
+		&= a(a^2 - ab +b^2 ) + b(a^2 - ab +b^2 ) \\
+		&= a^3 - a^2b + ab^2 + ba^2 - ab^2 + b^3  \\
+		&= a^3 - \cancel{a^2b + ab^2 + ba^2 - ab^2} + b^3  \\
+		&= a^3 + b^3
+	\end{align*}
+\end{proof}
+
+\begin{example}[Factor]
+	\begin{align*}
+		27x^3 + 1 &= (3x + 1)(9x^2 - 3x + 1) \\
+		81x^3 + 192b^3 &= (5x + 6b)(25x^2 - 30xb + 36b^2)
+	\end{align*}	
+\end{example}
 
 \end{document}
