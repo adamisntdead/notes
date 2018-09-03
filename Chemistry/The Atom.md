@@ -71,3 +71,17 @@ After his experiments, Thomson proposed a simple model of the atom:
 - Electrons are embedded in the sphere at random.
 
 ![Plum Pudding](https://d2gne97vdumgn3.cloudfront.net/api/file/G513BNVbRkaYgB63CplV)
+
+### Discovery of the nucleas
+
+### Discovery of The Proton
+
+Rotherford continued his experiment of bombardment with alpha particles, but he switched to nitrogen and oxygen (which are lighter elemnets)
+
+He found that small positive particles were given off - protons.
+
+### Discovery of the neutron
+
+James Chadwick bombarded beryllium, and found similar results.
+He discovered some type of radiation made up of particles with no charge coming from the beryllium.
+These particles had about the same mass as the proton, and he named them _neutrons_.
