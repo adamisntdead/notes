@@ -85,3 +85,7 @@ a **yean-hock** rud ar bih
 dum
 ock may a lig-in a-mock
 ```
+
+## Analysis
+
+This poem is a metaphor for cancer. The thing to set her free is death or getting out of hospital. She is old and senile
