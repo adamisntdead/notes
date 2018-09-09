@@ -10,5 +10,6 @@
 # done
 
 
-
-find Maths -name "*.md" |  parallel 'pandoc --template notes-template.tex  "{}" -o "{.}.pdf'
+# If you do not have GNU parallel installed, you can comment this out and 
+# Use the above
+find Maths -name "*.md" | parallel 'echo "Converting {} to {.}.pdf" && pandoc --template notes-template.tex  {} -o {.}.pdf'
