@@ -1,5 +1,8 @@
+$if(large)$
 \documentclass[a4paper,titlepage,onecolumn,superscriptaddress,12pt,unpublished]{quantumarticle} % For a longer style, uncomment this
-  %\documentclass[a4paper,twocolumn,superscriptaddress,11pt,unpublished]{quantumarticle} 
+$else$
+\documentclass[a4paper,onecolumn,superscriptaddress,11pt,unpublished]{quantumarticle} 
+$endif$
   \pdfoutput=1
   \usepackage[utf8]{inputenc}
   \usepackage[english]{babel}
@@ -11,10 +14,15 @@
   \usepackage{cancel}
   \usepackage{enumerate}
   \usepackage{tikz}
+  \usepackage{float}
   \usepackage{longtable}
   \usepackage{booktabs}
   \usepackage{chngcntr}
   \usepackage[tikz]{mdframed}
+
+  % More ergonomic figure placement for markdown
+  \floatplacement{figure}{H}
+  \floatplacement{table}{H}
 
   $if(graphics)$
   \usepackage{graphicx,grffile}
@@ -25,7 +33,7 @@
   % Scale images if necessary, so that they will not overflow the page
   % margins by default, and it is still possible to overwrite the defaults
   % using explicit options in \includegraphics[width, height, ...]{}
-  \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+  \setkeys{Gin}{width=\maxwidth,height=.5\maxheight,keepaspectratio}
   $endif$
   
   $for(header-includes)$

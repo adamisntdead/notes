@@ -387,10 +387,8 @@
   \null
   \let \footnote \thanks
     \noindent\@printtitle
-    \vskip 1.5em%
-    \noindent\@printauthors
     \vskip 1em%
-    \noindent\@printaffiliations
+    \noindent\@printauthors
     \vskip 0em%
     \noindent{\footnotesize\color{quantumgray}\@date}
   \par

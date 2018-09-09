@@ -1,4 +1,5 @@
 ---
+large: true
 title: 'Algebra 1 - Leaving Cert Higher Level Maths'
 abstract: |
   The following is notes on the Algebra 1 section of the leaving cert
