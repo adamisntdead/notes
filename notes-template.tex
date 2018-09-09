@@ -24,6 +24,10 @@ $endif$
   \floatplacement{figure}{H}
   \floatplacement{table}{H}
 
+  $if(sans-serif)$
+  \renewcommand\familydefault{\sfdefault}
+  $endif$
+
   $if(graphics)$
   \usepackage{graphicx,grffile}
   \makeatletter
