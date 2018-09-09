@@ -85,3 +85,11 @@ He found that small positive particles were given off - protons.
 James Chadwick bombarded beryllium, and found similar results.
 He discovered some type of radiation made up of particles with no charge coming from the beryllium.
 These particles had about the same mass as the proton, and he named them _neutrons_.
+
+## Properties of the Sub-Atomic Particles
+
+|            | *Relative Charge* | *Relative Mass* | *Location*      |
+| ---------- | ----------------- | --------------- | --------------- |
+| *Proton*   | +1                | 1               | Nucleus         |
+| *Neutron*  | 0                 | 1               | Nucleus         |
+| *Electron* | -1                | 1/1838          | Outside Nucleus |

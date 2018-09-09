@@ -1,0 +1,198 @@
+\documentclass[a4paper,titlepage,onecolumn,superscriptaddress,12pt,unpublished]{quantumarticle} % For a longer style, uncomment this
+  %\documentclass[a4paper,twocolumn,superscriptaddress,11pt,unpublished]{quantumarticle} 
+  \pdfoutput=1
+  \usepackage[utf8]{inputenc}
+  \usepackage[english]{babel}
+  \usepackage[T1]{fontenc}
+  \usepackage{amsmath}
+  \usepackage{amsthm}
+  \usepackage{hyperref}
+  \usepackage{amssymb}
+  \usepackage{cancel}
+  \usepackage{enumerate}
+  \usepackage{tikz}
+  \usepackage{longtable}
+  \usepackage{booktabs}
+  \usepackage{chngcntr}
+  \usepackage[tikz]{mdframed}
+
+  $for(header-includes)$
+  $header-includes$
+  $endfor$
+
+  % \newtheorem{theorem}{Theorem}
+  % \newtheorem{definition}{Definition}[section]
+
+  % Environment Colours
+  \definecolor{definitiontitle}{RGB}{61,170,61}
+  \definecolor{definitiontitleback}{RGB}{216,233,213}
+
+  \definecolor{theoremtitle}{HTML}{7c98b3}
+  \definecolor{theoremtitleback}{HTML}{bcdeff}
+
+  \definecolor{exampletitle}{HTML}{ad5a5a}
+  \definecolor{exampletitleback}{HTML}{d19c9c}
+  
+  
+  \newcounter{mdexample}
+  \counterwithin{mdexample}{section}
+  \newcounter{mdthm}
+  \counterwithin{mdthm}{section}
+  % \newcounter{mddefinition}
+  % \counterwithin{mddefinition}{section}
+  
+  % Example Environment 
+  \newenvironment{example}[1]{
+    \stepcounter{mdexample}
+    \begin{mdframed}[
+      frametitle=#1,
+      frametitlefont=\itshape,
+      topline=false,
+      bottomline=false,
+      rightline=false,
+      linecolor=exampletitleback,
+      linewidth=2pt,
+      singleextra={
+        \node[
+          overlay,
+          outer sep=0pt,
+          anchor=north east,
+          text width=2.5cm,
+          minimum height=4ex,
+          fill=exampletitleback,
+          font=\color{exampletitle}\sffamily\scshape
+        ] at (O|-P) {example~\themdexample};
+        },
+      firstextra={
+        \node[
+          overlay,
+          outer sep=0pt,
+          anchor=north east,
+          text width=2.5cm,
+          minimum height=4ex,
+          fill=exampletitleback,
+          font=\color{exampletitle}\sffamily\scshape
+        ] at (O|-P) {example~\themdexample};
+        }
+      ]
+    }
+    {\end{mdframed}}
+
+  % Theorem Environment
+  \newenvironment{theorem}[1]
+  {\stepcounter{mdthm}\begin{mdframed}[
+    font=\itshape,
+    frametitle={#1.},
+    frametitlefont=\bfseries,
+    topline=false,
+    bottomline=false,
+    rightline=false,
+    linecolor=theoremtitleback,
+    linewidth=2pt,
+    singleextra={
+      \node[
+        overlay,
+        outer sep=0pt,
+        anchor=north east,
+        text width=2.5cm,
+        minimum height=4ex,
+        fill=theoremtitleback,
+        font=\color{theoremtitle}\sffamily\scshape
+      ] at (O|-P) {theorem~\themdthm};
+      },
+    firstextra={
+      \node[
+        overlay,
+        outer sep=0pt,
+        anchor=north east,
+        text width=2.5cm,
+        minimum height=4ex,
+        fill=theoremtitleback,
+        font=\color{theoremtitle}\sffamily\scshape
+      ] at (O|-P) {theorem~\themdthm};
+      }
+    ]
+  }
+  {\end{mdframed}}
+
+  % Definition Environment
+  \newenvironment{definition}[1]
+  {
+    %\stepcounter{mdthm}
+    \begin{mdframed}[
+    frametitle={#1.},
+    frametitlefont=\bfseries,
+    font=\itshape,
+    topline=false,
+    bottomline=false,
+    rightline=false,
+    linecolor=definitiontitleback,
+    linewidth=2pt,
+    singleextra={
+      \node[
+        overlay,
+        outer sep=0pt,
+        anchor=north east,
+        text width=2.5cm,
+        minimum height=4ex,
+        fill=definitiontitleback,
+        font=\color{definitiontitle}\sffamily\scshape
+      ] at (O|-P) {definition};
+      },
+    firstextra={
+      \node[
+        overlay,
+        outer sep=0pt,
+        anchor=north east,
+        text width=2.5cm,
+        minimum height=4ex,
+        fill=definitiontitleback,
+        font=\color{definitiontitle}\sffamily\scshape
+      ] at (O|-P) {definition};
+      }
+    ]
+  }
+  {\end{mdframed}}
+  
+  \newcommand\Solution{\par\textbf{\textsf{Solution}}\par\medskip}
+
+  \setlength{\parindent}{0in}
+  \providecommand{\tightlist}{} % This is a command used by pandoc, you can define if needed.
+  
+\begin{document}
+
+$if(title)$
+\title{$title$}
+$else$
+\title{Notes}
+$endif$
+
+$if(date)$
+\date{$date$}
+$else$
+\date{\today}
+$endif$
+
+$if(author)$
+\author{$author$}
+$else$
+\author{Adam Kelly}
+$endif$
+
+\maketitle
+
+$if(abstract)$
+\begin{abstract}
+  $abstract$
+\end{abstract}
+$endif$
+
+$body$
+
+% \onecolumn\newpage
+% \appendix
+
+% \section{Calculating \LaTeX}
+
+% Uncomment this if needed!
+\end{document}
