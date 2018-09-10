@@ -22,7 +22,7 @@ header-includes:
 	$$
 		a_x x^n + a_{n-1} x^{n - 1} + \dots + a^2 x^2 + a_1 x + a_0
 	$$
-
+	
 	Where $a_i \in \mathbb{R}$; $i = 0, 1, 2, \dots, n$; $n \in \mathbb{N}$.
 \end{definition}
 
@@ -150,7 +150,7 @@ This is a generalized version of the arithmetic technique called long division.
 	\begin{center}
 		\polylongdiv{x^3 + x^2 - 2x}{x - 1}
 	\end{center}
-
+	
 	$$
 		\therefore \frac{x^3 + x^2 - 2x}{x - 1} = x^2 + 2x
 	$$
@@ -166,12 +166,12 @@ This can just be added at the end. Here is an example of a remainder.
 	$$
 		\frac{x^3 + x^2 - 1}{x - 1}
 	$$}
-
+	
 	\Solution
 	\begin{center}
 		\polylongdiv{x^3+x^2-1}{x-1}
 	\end{center}
-
+	
 	$$
 		\therefore \frac{x^3 + x^2 - 1}{x - 1} = x^2 + 2x + 2 + \frac{1}{x - 1}
 	$$
@@ -192,7 +192,7 @@ This technique is generally used in the process of finding the roots of a polyno
 	\begin{center}
 		\polyhornerscheme[x=1]{x^3 + x^2 - 2x}
 	\end{center}
-
+	
 	$$
 		\therefore \frac{x^3 + x^2 - 2x}{x - 1} = x^2 + 2x
 	$$
@@ -313,9 +313,9 @@ If the previous methods don't work and you with to factor a quadratic, you can u
 \begin{example}{Factor 
 	$3x^2 - 17x + 20$}
 	\Solution
-
+	
 	First, you must let the expression equal $0$, and then solve for $x$:
-
+	
 	\begin{align*}
 		 & 3x^2 - 17x + 20 = 0                        \\
 		 & \implies x
@@ -326,7 +326,7 @@ If the previous methods don't work and you with to factor a quadratic, you can u
 	
 	From this you can find that if $x = 4$, then $x- 4$ is a factor.
 	If $x = \frac{5}{3} \implies 3x = 5$, then $3x - 5$ is a factor
-
+	
 	$$
 		\therefore 3x^2 - 17x + 20 = (3x -5)(x - 4)
 	$$
@@ -340,7 +340,7 @@ If the previous methods don't work and you with to factor a quadratic, you can u
 	$$
 		\frac{f(x)}{g(x)}
 	$$
-
+	
 	Where $f(x), g(x)$ are expressions in $x$.
 \end{definition}
 
@@ -396,7 +396,7 @@ Here are some examples of following these rules to simplify algebraic fractions.
 		\frac{1}{x+2} + \frac{1}{x+3}
 	$$}
 	\Solution
-
+	
 	\begin{align*}
 		  & \frac{1}{x+2} + \frac{1}{x+3}    \\
 		= & \frac{(x+2) + (x+3)}{(x+2)(x+3)} \\
@@ -452,7 +452,7 @@ There is a number of properties that you will need to know.
 	To understand how this works, imagine you have $n$ balls, and you are asked to choose 
 	$r$ of them to remove from the group. You could also think of this as choosing $n-r$ of them
 	to keep. Thus, choosing $r$ objects out of $n$ is equivalent to choosing $n-r$ objects out of $n$.\\
-
+	
 	Formally, you can show this theorem algebraically:
 	\begin{align*}
 		{n\choose r} &= \frac{n!}{r!(n-r)!}\\
@@ -460,6 +460,8 @@ There is a number of properties that you will need to know.
 		&= \frac{n!}{(n-r)!r!}
 	\end{align*}
 \end{proof}
+
+
 
 It is also possible to calculate this coefficient in an alternate way, which can be useful for calculating this coefficient without a calculator.
 

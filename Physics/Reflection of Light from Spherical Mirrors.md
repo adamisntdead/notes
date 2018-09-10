@@ -1,13 +1,26 @@
 # Reflection of Light from Spherical Mirrors
 
-## Reflection of light from a concave mirror
 
-A ray strikes the pole of a concave mirror
 
-What is it's path after the reflection of the mirror?
+There are two type sof spherical mirror; Concave and Convex.
 
-## Real Images
+\begin{definition}{Concave Mirror}
+A mirror 'caves in' at the center
+\end{definition}
 
-A Real Image is an image formed by the actual intersection of rays.
+\begin{definition}{Convex Mirror}
+A concave mirror 'bulges out' at the center
+\end{definition}
 
-A real image can be formed on a screen.
+## Real and Virtual Images
+
+\begin{definition}{Real Image}
+An image formed by the actual intersection of light rays. A real image can be located on a screen.
+\end{definition}
+
+\begin{definition}{Virtual Image}
+An image formed by the \emph{apparent} intersection of light rays.
+A virtual image cannot be formed on a screen (because there are no actual rays to intersect behind the mirror).
+\end{definition}
+
+
