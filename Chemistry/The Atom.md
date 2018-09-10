@@ -2,8 +2,20 @@
 title: "The Atom"
 ---
 
-- The materials around us are made up of matter
-- Matter can take 3 forms, solids, liquids and gases
+\section*{Summary}
+
+- All matter is made up of small particles
+- Particles are spread through diffusion
+- John Dalton's atomic theory: All matter is made up of very small particles called atoms, and atoms are indivisible (can't be broken down into smaller parts, which is wrong)
+- William Crookes investigates cathode rays in vacume tubes
+- Cathode rays are rays of negatively charged particles (electrons), They travel in straight lines form the cathode to the anode, are deflected by electric and magnetic fields and have sufficient energy to move small objects (paddle wheel)
+- J. J. Thomson showed electrons are negatively charged and measured $e/m$
+- Robert Millikan measured the charged using his oil drop experiment
+- J. J. Thomson proposed the 'plum pudding' model of the atom
+- Rutherford discovered the nucleus of the atom and the existence of protons in the nucleus
+- James Chadwick discovered the neutron
+  
+---
 
 # The First Atomic Theory
 
@@ -76,15 +88,37 @@ After his experiments, Thomson proposed a simple model of the atom:
 
 ## Discovery of the Nucleus
 
-*TODO:* Write this...
+Ernest Rutherford did the experiment of bombarding a sheet of gold with alpha particles.
+
+\begin{definition}{Alpha Particles}
+Positively charged particles produced by certain radioactive substances.
+They consist of two neutrons and two protons stuck together.
+\end{definition}
+
+![The experiment carried out by Rutherford to investigate how alpha particles were scattered by a piece of gold foil.](https://i.imgur.com/BToJ11t.jpg)
+
+- A thin piece of gold foil was bombarded with alpha particles
+- It was expected that the alpha particles would be deflected by small amounts.
+- A phosphorescent screen was used to detect the alpha particles
+- Rutherford found some alpha particles were deflected at large angles, and some were deflected along their own paths.
+
+The following conclusions were made.
+
+| **Observation**                                                             | **Conclusion**                                                                    |
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| Most alpha particles pass straight through the gold foil.                   | Most of the atom is empty space.                                                  |
+| Some alpha particles are deflected at large angles.                         | The alpha particles are repelled when they pass near the small, positive nucleus. |
+| A small number of alpha particles are reflected back along their own paths. | A small number of alpha particles collide head on with the nucleus.               |
+
+
 
 ## Discovery of The Proton
 
-Rotherford continued his experiment of bombardment with alpha particles, but he switched to nitrogen and oxygen (which are lighter elemnets)
+Rutherford continued his experiment of bombardment with alpha particles, but he switched to nitrogen and oxygen (which are lighter elements)
 
 He found that small positive particles were given off - protons.
 
-## Discovery of the neutron
+## Discovery of the Neutron
 
 James Chadwick bombarded beryllium, and found similar results.
 He discovered some type of radiation made up of particles with no charge coming from the beryllium.
