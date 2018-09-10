@@ -1,0 +1,110 @@
+\documentclass[border=1cm]{standalone}
+
+  \usepackage{tikz}
+  \usetikzlibrary{optics}
+  \usetikzlibrary{calc}
+  \usetikzlibrary{shapes}
+  
+  \begin{document}
+  
+  \begin{tikzpicture}[use optics]
+    % mirror
+    \node[
+      spherical mirror, 
+        name=M,  
+        object height=10cm,
+        spherical mirror angle=from_radius(6cm),
+        draw mirror focus={label=below:$f$}, 
+        draw mirror center={red, label=below:$c$}
+    ] (M) at (0,0) {};
+    
+    % Mirror intersection
+    \coordinate (P1) at (M.arc center |- M.22);
+  
+    % baseline
+    \draw (M.arc center) -- ($ (M.mirror center) - (3,0) $);
+    
+    % object
+    \coordinate (Obj_Start) at ($ (M.mirror center)$);
+    \coordinate (Obj_End) at (Obj_Start |- P1);
+    \draw [->] (Obj_Start) -- (Obj_End) node[midway,left] {Object};
+    
+    % calculating the location of the image
+    \coordinate (P2) at (M.arc center);
+    \path let \p1 = (Obj_End) in coordinate (Obj_Inv) at (\x1,-\y1);
+    \coordinate (Image_End) at (intersection of P1--M.focus and P2--Obj_Inv);
+    
+    
+    % image
+    \coordinate (Image_Start) at (Image_End |- Obj_Start);
+    \draw [->] (Image_Start) -- (Image_End) node[midway,left] {Image};
+    
+    \begin{scope}[red]
+      % ray from the top of the object to the mirror, 
+      % parallel with the baseline
+        \draw[->-] (Obj_End) -- (P1);
+        
+        % ray through the focus
+        \draw[->, shorten >=-2cm] (P1) -- (Image_End);  		
+    \end{scope}
+    
+    \begin{scope}[violet]
+      % ray to the mirror pole (Incident Ray)
+        \draw[->-] (Obj_End) -- (P2);
+      
+      % ray to the image (Reflected Ray)
+        \draw[->, shorten >=-2cm] (P2) -- (Image_End);
+    \end{scope}
+    
+    
+  \end{tikzpicture}
+  
+  
+  
+  
+  
+  %\begin{tikzpicture}[use optics]
+  %	% mirror
+  %	\node[
+  %		spherical mirror, 
+  %	  	name=M,  
+  %	  	object height=4cm,
+  %	  	spherical mirror angle=from_radius(5cm),
+  %	  	draw mirror focus={label=below:$f$}, 
+  %	  	draw mirror center={red, label=below:$c$}
+  %	] (M) at (0,0) {};
+  %
+  %	% baseline
+  %	\draw (M.arc center) -- ($ (M.mirror center) - (1.5,0) $);
+  %\end{tikzpicture}
+  \end{document}
+  
+  %\begin{tikzpicture}[use optics] % mirror with hole \begin{scope}
+  %  \clip (-0.75cm,-2.2cm) rectangle (1cm,0-0.33cm) (-0.75cm,2.2cm) rectangle (1cm,0+0.33cm);
+  %\node[spherical mirror, object height=4cm, spherical mirror angle=50] (M1) at (0cm,0) {}; \end{scope}
+  %% small mirror
+  %\node[convex mirror, spherical mirror orientation=rtl,
+  %object height=1cm, spherical mirror angle=90] (M2) at (-4cm,0) {};
+  %% convergence point
+  %\coordinate (F) at (1cm,0);
+  %% red ray
+  %\begin{scope}[red]
+  %  \draw[-<-] (M1.22) coordinate (P1) -- +(-5cm,0);
+  %  \draw[->-] (P1) -- (M2.30) coordinate (Q1);
+  %  \draw[->-] (Q1) -- ($(Q1)!1.25!(F)$) coordinate (R1);
+  %\end{scope}
+  %% blue ray
+  %\begin{scope}[blue]
+  %  \draw[-<<-] (M1.-22) coordinate (P2) -- +(-5cm,0);
+  %  \draw[->>-] (P2) -- (M2.-30) coordinate (Q2);
+  %  \draw[->>-] (Q2) -- ($(Q2)!1.25!(F)$) coordinate (R2);
+  %\end{scope}
+  %% violet ray
+  %\begin{scope}[violet]
+  %  \draw[-<-] (M1.22) coordinate (P3) -- +(175:5cm);
+  %  \draw (P3) -- (M2.22) coordinate (Q3);
+  %  \draw (Q3) -- ($(Q3)!1.25!($(F)+(0,-0.15cm)$)$) coordinate (R3);
+  %\end{scope}
+  %% sensor
+  %\node[generic sensor, anchor=aperture west] at ($(R1)!0.5!(R2)$) {}; \end{tikzpicture}
+  
