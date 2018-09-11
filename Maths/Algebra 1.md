@@ -488,3 +488,12 @@ $$
 	&= 1365
 	\end{align*}
 \end{example}
+
+## The Binomial Theorem
+
+\begin{theorem}{The Binomial Theorem}
+\begin{align*}
+(a + b)^n &= \sum_{r = 0}^{n} {n\choose r} a^{n - r} b^r\\
+&= {n\choose 0} a^n + {n\choose 1}a^{n - 1}b + {n\choose 2} a^{n - 2}b^2 + \dots + {n\choose n}b^n
+\end{align*}
+\end{definition}

@@ -49,7 +49,7 @@ A virtual image cannot be formed on a screen (because there are no actual rays t
 	\draw (M.arc center) -- ($ (M.mirror center) - (3,0) $);
 	
 	% object
-	\coordinate (Obj_Start) at ($ (M.mirror center) - (1, 0) $);
+	\coordinate (Obj_Start) at ($ (M.mirror center) $);
 	\coordinate (Obj_End) at (Obj_Start |- M.22);
 	\draw [->] (Obj_Start) -- (Obj_End) node[midway,left] {Object};
 	
@@ -83,3 +83,16 @@ A virtual image cannot be formed on a screen (because there are no actual rays t
 
   \caption{When the object is behind the center ($c$), the image is between $c$ and the focus ($f$). The image is diminished. It is also real, and by extension inverted.}
 \end{figure}
+
+
+There is a relation
+
+$$
+\frac{1}{v} + \frac{1}{u} = \frac{1}{f}
+$$
+
+And 
+
+$$
+m = \frac{\text{object height}}{\text{image height}} = \frac{v}{u}
+$$
