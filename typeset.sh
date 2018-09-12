@@ -12,4 +12,4 @@
 
 # If you do not have GNU parallel installed, you can comment this out and 
 # Use the above
-find Maths Chemistry Physics -name "*.md" | parallel 'echo "Converted {} to {.}.pdf" && mkdir -p PDFs/{//} && pandoc --template notes-template.tex  {} -o PDFs/{.}.pdf'
+find Maths Applied\ Maths Chemistry Physics -name "*.md" | parallel 'echo "Converted {} to {.}.pdf" && mkdir -p PDFs/{//} && pandoc --template notes-template.tex  {} -o PDFs/{.}.pdf'
