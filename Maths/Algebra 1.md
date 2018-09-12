@@ -492,8 +492,28 @@ $$
 ## The Binomial Theorem
 
 \begin{theorem}{The Binomial Theorem}
+For any positive integer $n$,
 \begin{align*}
-(a + b)^n &= \sum_{r = 0}^{n} {n\choose r} a^{n - r} b^r\\
+(a + b)^n &= \sum_{m = 0}^{n} {n\choose m} a^m b^{n -m}\\
 &= {n\choose 0} a^n + {n\choose 1}a^{n - 1}b + {n\choose 2} a^{n - 2}b^2 + {n\choose 3} a^{n - 3}b^3 + \dots + {n\choose n}b^n
 \end{align*}
-\end{definition}
+\end{theorem}
+
+\begin{proof}
+$\underbrace{(a + b)^n = (a + b)(a + b)(a+b) \dots (a + b)}_{n \text{ times}}$.
+Repeatedly using the distributive property, we can see that for a term $a^m b^{n-m}$, we must choose $m$ of the $n$ terms to contribute an $a$ to the term, and then each of the other $n - m$ terms of the products must contribute a $b$ term. Thus the coefficient of the $a^m b^{n-m}$ is the number of ways to choose $m$ objects from a set of size $n$, which is $n \choose m$. For all possible values of $0 \leq m \leq n$, we can see that
+
+$$
+(a + b)^n = \sum_{m = 0}^{n} {n \choose m} a^m b^{n - m}
+$$
+\end{proof}
+
+# Algebraic Identities
+
+When you have an equation and have matching coefficients on both sides, then they are equal
+
+$$
+ax^2 +bx +c = 3x^2 + 2x + 5
+$$
+
+You can easily find that $a = 3, b = 2, c = 5$.

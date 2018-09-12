@@ -68,7 +68,7 @@ Is é m'uimhir scrúdaithe ná \_\_\_\_\_\_\_
 
 **Answer Length**: Minimum 1 sentence, maximum 3 sentences
 
-## Siblings
+### Siblings
 
 You should make up siblings if you have none! Make them up, and make them easy to talk about.
 It gives you something to talk about.
@@ -77,7 +77,7 @@ If you say you are an only child, the examiner will probably ask you what it's l
 
 To keep it simple, make up siblings.
 
-## Uniqueness
+### Uniqueness
 
 Every body should have a unique selling point. Something that you or only one other person might have.
 
@@ -89,16 +89,16 @@ Things like
 * Things that are different
 * Very different hobbies
 
-## Questions
+### Questions
 
-1. **Déan cur sois ort féin** - Súile, Gruaige, Airde (Tá mé **cúig** troigh **dhá** órlach in airde. - I am 5 foot two inches in height.)
-2. **Cén saghas duine thú** - Tréithe x3 (is duine \_\_\_\_\_\_\_ me)
+1. **Déan cur sois ort féin?** - Súile, Gruaige, Airde (Tá mé **cúig** troigh **dhá** órlach in airde. - I am 5 foot two inches in height.)
+2. **Cén saghas duine thú?** - Tréithe x3 (is duine \_\_\_\_\_\_\_ me)
 3. **Cé mhéad derifúir agus deartháir** - Remember use the correct word
-4. **Cé mhéad atá i do chlann** - Tá \_\_\_\_\_\_\_ i mo chlann.
-5. **Cé atá sa chlann** - Tá mo mham, Mary ....
-6. **Cén aois i do dheirfiúir/é do dheartháir** - Tá Úna \_\_\_\_\_\_\_ agus tá Tom  \_\_\_\_\_\_\_ ...
-7. **An reitíonn tú go maith le do thuismitheoirir/le do dheirfiúir/le do dheartháir**
-8. **Cén saghas duien é do dheartháir/i do dheirfiúr** - Same sort of things as yourself but you only need 1/2 things for each person.
-9.  **Cad a dhéanann do dheartháir/do dheirfiúr** - Ta \_\_\_\_\_\_\_ sa chéad blian so scoile seo
-10. **Cad a dhéanann do thuismitheoirí? Cén post atá ag do thuismitheoiri**b- Is __ é m'athair. Is _ é mo mháithair
-11. **Déan cur síos ar do chara** - Choose a friend and then say 2/3 things about them 
+4. **Cé mhéad atá i do chlann?** - Tá \_\_\_\_\_\_\_ i mo chlann.
+5. **Cé atá sa chlann?** - Tá mo mham, Mary ....
+6. **Cén aois i do dheirfiúir/é do dheartháir?** - Tá Úna \_\_\_\_\_\_\_ agus tá Tom  \_\_\_\_\_\_\_ ...
+7. **An reitíonn tú go maith le do thuismitheoirir/le do dheirfiúir/le do dheartháir?**
+8. **Cén saghas duine é do dheartháir/i do dheirfiúr?** - Same sort of things as yourself but you only need 1/2 things for each person.
+9.  **Cad a dhéanann do dheartháir/do dheirfiúr?** - Ta \_\_\_\_\_\_\_ sa chéad blian so scoile seo
+10. **Cad a dhéanann do thuismitheoirí? Cén post atá ag do thuismitheoiri?** - Is __ é m'athair. Is _ é mo mháithair
+11. **Déan cur síos ar do chara?** - Choose a friend and then say 2/3 things about them

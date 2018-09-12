@@ -143,11 +143,35 @@ His power and energy have gone forever. It's fired a collection of life. It depe
 
 #### Brón
 
-- Tá brón ar an ainmhí anois. Nil sé saor chun rith timpeall
-- Tá sé i ngéibheann sa zú, ag feachaint ar chrann amháin
-- Tá sé in eadóchas mar go dtuigeann sé a chroí istigh nach mbeidh sé saor arís
+- Tá brón ar an ainmhí anois. Nil sé saor chun rith timpeall - The animal is sad now. He is not free to run around.
+- Tá sé i ngéibheann sa zú, ag feachaint ar chrann amháin - He is in captivity in the zoo, looking at one tree
+- Tá sé in éadóchas mar go dtuigeann sé a chroí istigh nach mbeidh sé saor arís - He is in dispare as he knows in his heart he won't be free again.
+- Is taispeántas é sa zú anois - He is an exhibition in the zoo now
 
-#### Trua
+#### Trua (Pity)
 
-- Tá trua ag an bhfile don ainmhí bocht atá i ngéibheann
-- Ba mhaith leis an ainmhí a bheith saor ach níl aoin duine sásta é a ligeann saor
+- Tá trua ag an bhfile don ainmhí bocht atá i ngéibheann - The poet has pity for the poor animal that's in captivity.
+- Ba mhaith leis an ainmhí a bheith saor ach níl aoin duine sásta é a ligeann saor - The animal would like to be free, but nobody is happy to set him free.
+
+### Codarsnacht Sa Dán (Contrast In The Poem)
+
+Tá codarsnacht idir an t-ainmhí nuar a bhí sé saor sna teochriosanna agus an t-ainmhí anbois sa zú.
+
+Nuair a bhí sé saor, bhí sé láidir, ag rith timpeall, bhí sé cáiliúil as a áilleacht.
+
+Anois tá sé sa zú. Níl aon suim aige in aon rud Luíonn sé ar a talamh, tá sé leath ina chodladh.
+
+Tá codarsnacht idir na teochriosanna -  áit nádúrtha é lán le crainn, bhí an t-ainmhí saor agus sona sásta ann agus an zú - áit mhínádúrtha é, is príosún é, níl fuinneamh fiú ann ag an ainmhí.
+
+### Ar thaitin an dán seo leat?
+
+This question usually comes up as 'do you like this poem, give two reasons for your answer'.
+Your reasons need to be backed up with evidence
+
+Is maith liom an dán seo ach tá sé brónach. Ceapaim go bhfuil an dá íomha den ainmhí iontach.
+
+Is maith liom an chéad íomha nuair atá an t-ainmhí saor sna teochriosanna ag rith timpeall lán le fuinneamh agus láidreacht.
+
+Tá codarsnacht an-mhaith freisin. Tá cur síos ar an ainmhí sa zú an bhrónach.  Caitheann sé an lá ina  luí ar an talamh. Nuair a bhí sé saor sna teochriosanna bhí na céadta crann ann ach anois, sa zú, níl ach crann amháin ann.
+
+Is maith liom an dán seo mar go dtaispeánann sé an scéal ó thaobh an ainmhí de agus tuigimid mothúcháin an ainmhí.
