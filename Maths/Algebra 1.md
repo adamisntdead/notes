@@ -494,7 +494,7 @@ $$
 \begin{theorem}{The Binomial Theorem}
 For any positive integer $n$,
 \begin{align*}
-(a + b)^n &= \sum_{m = 0}^{n} {n\choose m} a^m b^{n -m}\\
+(a + b)^n &= \sum_{m = 0}^{n} {n\choose m} a^{n - m} b^{n}\\
 &= {n\choose 0} a^n + {n\choose 1}a^{n - 1}b + {n\choose 2} a^{n - 2}b^2 + {n\choose 3} a^{n - 3}b^3 + \dots + {n\choose n}b^n
 \end{align*}
 \end{theorem}

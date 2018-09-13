@@ -1,0 +1,176 @@
+\documentclass{article}
+  \usepackage[landscape]{geometry}
+  \usepackage{url}
+  \usepackage{multicol}
+  \usepackage{amsmath}
+  \usepackage{esint}
+  \usepackage{amsfonts}
+  \usepackage{tikz}
+  \usetikzlibrary{decorations.pathmorphing}
+  \usepackage{amsmath,amssymb}
+  
+  \usepackage{colortbl}
+  \usepackage{xcolor}
+  \usepackage{mathtools}
+  \usepackage{polynom}
+  \usepackage{amsmath,amssymb}
+  \usepackage{enumitem}
+  \makeatletter
+  
+  \newcommand*\bigcdot{\mathpalette\bigcdot@{.5}}
+  \newcommand*\bigcdot@[2]{\mathbin{\vcenter{\hbox{\scalebox{#2}{$\m@th#1\bullet$}}}}}
+  \makeatother
+  
+  \title{130 Cheat Sheet}
+  \usepackage[english]{babel}
+  \usepackage[utf8]{inputenc}
+  
+  \advance\topmargin-.8in
+  \advance\textheight3in
+  \advance\textwidth3in
+  \advance\oddsidemargin-1.5in
+  \advance\evensidemargin-1.5in
+  \parindent0pt
+  \parskip2pt
+  \newcommand{\hr}{\centerline{\rule{3.5in}{1pt}}}
+  %\colorbox[HTML]{e4e4e4}{\makebox[\textwidth-2\fboxsep][l]{texto}
+  \begin{document}
+  
+  \begin{center}{\huge{\textbf{Algebra 1 Cheat Sheet}}}\\
+  \end{center}
+  \begin{multicols*}{3}
+  
+  \tikzstyle{mybox} = [draw=black, fill=white, very thick,
+      rectangle, rounded corners, inner sep=10pt, inner ysep=10pt]
+  \tikzstyle{fancytitle} =[fill=black, text=white, font=\bfseries]
+  
+  %------------ Polynomials ---------------
+  \begin{tikzpicture}
+  \node [mybox] (box){%
+      \begin{minipage}{0.3\textwidth}
+      An expression of the form:
+      
+      $$
+        a_x x^n + a_{n-1} x^{n - 1} + \dots + a^2 x^2 + a_1 x + a_0
+      $$
+      
+      Where $a_i \in \mathbb{R}$; $i = 0, 1, 2, \dots, n$; $n \in \mathbb{N}$.
+      \end{minipage}
+  };
+  %------------ Polynomials Header ---------------------
+  \node[fancytitle, right=10pt] at (box.north west) {Polynomial};
+  \end{tikzpicture}
+  
+  %------------ Types Of Polynomials ---------------
+  \begin{tikzpicture}
+  \node [mybox] (box){%
+      \begin{minipage}{0.3\textwidth}
+          \small{
+          \begin{tabular}{lp{4cm} l}
+          Linear \emph{(degree 1)} & $ax + b$ \\ \hline
+          Quadratic \emph{(degree 2)} & $ax^2 + bx + c$ \\ \hline
+          Cubic \emph{(degree 3)} & $ax^3 + bx^2 + cx + d$     \end{tabular}}
+      \end{minipage}
+  };
+  %------------ Types Of Polynomials Header ---------------------
+  \node[fancytitle, right=10pt] at (box.north west) {Types Of Polynomials};
+  \end{tikzpicture}
+  
+  %------------ Factoring ---------------
+  \begin{tikzpicture}
+  \node [mybox] (box){%
+      \begin{minipage}{0.3\textwidth}
+      \small{
+          \begin{tabular}{lp{3.85cm} l}
+          Difference Of Two Squares & $a^2 - b^2 = (a + b)(a - b)$ \\ \hline
+          Difference Of Two Cubes & $a^3 - b^3 = (a- b)(a^2 + ab + b^2)$ \\ \hline
+          Sum Of Two Cubes & $a^3 + b^3 = (a + b)(a^2 -ab + b^2)$     \end{tabular}}
+      \end{minipage}
+  };
+  %------------ Factoring Header ---------------------
+  \node[fancytitle, right=10pt] at (box.north west) {Factoring};
+  \end{tikzpicture}
+  
+  %------------ Polynomial Long Divison ---------------
+  \begin{tikzpicture}
+  \node [mybox] (box){%
+      \begin{minipage}{0.3\textwidth}
+        $(x^3 + x^2 - 2x) \div (x - 1)$\\
+        Solution:
+        \begin{center}
+        \polylongdiv{x^3 + x^2 - 2x}{x - 1}
+      \end{center}
+      \end{minipage}
+  };
+  %------------ Polynomial Long Division Header ---------------------
+  \node[fancytitle, right=10pt] at (box.north west) {Polynomial Long Division};
+  \end{tikzpicture}
+  %------------ Algebraic Fractions ---------------------
+  \begin{tikzpicture}
+  \node [mybox] (box){%
+      \begin{minipage}{0.3\textwidth}
+        \begin{align*}
+          a(\frac{b}{c}) &= \frac{ab}{c}   &  
+          \frac{(\frac{a}{b})}{c} &= \frac{a}{bc}  \\
+          \frac{a}{(\frac{b}{c})} &= \frac{ac}{b}   &  
+          \frac{(\frac{a}{b})}{(\frac{c}{d})} &= \frac{ad}{bc}\\
+          \frac{a}{b} + \frac{c}{d} &= \frac{ad + bc}{bd}   &  
+          \frac{a+b}{c} &= \frac{a}{c} + \frac{b}{c} \\
+          \frac{ab + ac}{a} &= b + c, a \neq 0
+        \end{align*}
+    \end{minipage}
+  };
+  %------------ Algebraic Fractions Header ---------------------
+  \node[fancytitle, right=10pt] at (box.north west) {Algebraic Fractions};
+  \end{tikzpicture}
+  
+  %------------ Binomial Coefficient ---------------
+  \begin{tikzpicture}
+  \node [mybox] (box){%
+      \begin{minipage}{0.3\textwidth}
+      The binomial coefficient represents the number of ways you can choose $r$ objects from a group of $n$ objects.
+      
+      \begin{align*}
+        {n \choose r } &= \frac{n!}{r!(n - r)!} & {n \choose r} &= {n \choose n - r}
+      \end{align*}
+      
+      $$
+      {n\choose r} =  \frac{n(n-1)(n-2)\dots(n-(k - 1))}{k(k-1)(k-2) \dots 1}
+      $$
+      \end{minipage}
+  };
+  %------------ Binomial Coefficient Header ---------------------
+  \node[fancytitle, right=10pt] at (box.north west) {Binomial Coefficient};
+  \end{tikzpicture}
+  
+  %------------ Binomial Theorem ---------------
+  \begin{tikzpicture}
+  \node [mybox] (box){%
+      \begin{minipage}{0.3\textwidth}
+        For any positive integer $n$,
+      \begin{align*}
+        (a + b)^n &= \sum_{m = 0}^{n} {n\choose m} a^{n - m} b^{n}\\
+        &= {n\choose 0} a^n + {n\choose 1}a^{n - 1}b^{1} + \dots + {n\choose n}b^n
+      \end{align*}
+      \end{minipage}
+  };
+  %------------ Binomial Theorem Header ---------------------
+  \node[fancytitle, right=10pt] at (box.north west) {Binomial Theorem};
+  \end{tikzpicture}
+  
+  %------------ Algebraic Identities ---------------
+  \begin{tikzpicture}
+  \node [mybox] (box){%
+      \begin{minipage}{0.3\textwidth}
+      In an \textbf{identity}, all coefficients of like powers are equal.\\
+      An identity must be true for \emph{all values} of the independent variables\\\\
+      \textbf{Example}: $3x + 7 = ax + b$ implies $a = 3$ and $b = 7$.
+  
+      \end{minipage}
+  };
+  %------------ Algebraic Identities Header ---------------------
+  \node[fancytitle, right=10pt] at (box.north west) {Algebraic Identities};
+  \end{tikzpicture}
+  
+  \end{multicols*}
+  \end{document}
