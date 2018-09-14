@@ -49,7 +49,7 @@ A virtual image cannot be formed on a screen (because there are no actual rays t
 	\draw (M.arc center) -- ($ (M.mirror center) - (3,0) $);
 	
 	% object
-	\coordinate (Obj_Start) at ($ (M.mirror center) $);
+	\coordinate (Obj_Start) at ($ (M.mirror center) - (1, 0) $);
 	\coordinate (Obj_End) at (Obj_Start |- M.22);
 	\draw [->] (Obj_Start) -- (Obj_End) node[midway,left] {Object};
 	
