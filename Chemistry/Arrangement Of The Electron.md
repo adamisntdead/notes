@@ -63,3 +63,61 @@ Neon = 1s^2, 2s^2, 2p^6
 Aliminum = 1s^2, 2s^2, 2p^6, 3s^2, 3p^1
 Potassium (19) = 1s2, 2s2, 2p6, 3s2, 2p6, 4s1
 Copper (29) = 1s2, 2s2, 2p6, 3s2, 3p6 ,4s1, 3d10
+
+# The wave nature of the electron
+
+Louis de Broglei suggested all moving particles hab a wave motion. (know he put forward the idea)
+
+This idea that a particle behaves like a wave is the particle wave duality.
+
+This problem was done mathematically by werner heisenberg, heisenberg uncertainty principle
+
+"It is imposable to know both the momentum and position of an electron".
+
+
+Consider a beam of light begin used to detect the position of an electron. Light is energy, thus measuring adds
+energy to the electron. After the beam hits the electron, the position is known, but then it's speed is immediately changed by the energy from the light.
+
+Heisenberg said that the bohr model of the atom was incomplete.
+
+## Limitations of Bohr's theory
+
+- Only worked to explain the emision spectrum of hydrogen, but for more then 1 electron, it couldn't describe it perfectly
+- It didn't take into account the wavelike motion of the electron
+- When the Heisenberg's Uncertainty Principle, can only refer to the probability of finding an electron
+- Bohr's theory could not explain the splitting of certain lines in the emission spectra and didn't taking into account sublevels.
+
+# Orbitals
+
+\begin{definition}{Orbital}
+A region of space within which there is a high probability of finding an electron.
+\end{definition}
+
+**Remember**: Orbitals are not the same as an orbit, as it is talking about probabilities of finding an electron
+
+The first orbital is $s$, it holds 2 electron.
+
+The S orbitals sphere gets bigger as you move out.
+
+A p sublevel is a dumbell shape, and there is 3 types of p orbitals, px, py, pz (each holds 2) alogn each axis
+
+PUT DIAGRAM HERE
+
+CHECK EXAM QUESTIONS!
+
+
+## Example
+
+How the line spectrum proves energy levels exist.
+
+- In the ground state the electron occupies the lowest available energy level
+- THe electron can jump to the a higher level if it receives energy.
+- The excited state is unstable
+- The electron falls back to a lower level, releasing energy as photons
+
+$$
+E_2 - E_1 = hf
+$$
+
+
+
