@@ -2,7 +2,25 @@
 title: "Arrangement Of The Electrons"
 ---
 
-**TODO**: Finish this
+
+\section*{Summary}
+
+- The formation of emission line spectra indicates the presence of energy levels in atoms. An emission line spectrum consists of coloured lines against a dark background.
+- The instruments used ot examine spectra are called spectrometers and spectroscopes
+- When salts are heated, different colours are emitted depending on the metal present in the salt.
+- Bohr proposed that electrons revolve around the nucleus in fixed paths called orbits or energy levels.
+- Bohr proposed that the energy of an electron in an energy level is quantised, i.e. fixed at a definite amount.
+- When an atom absorbs energy, electrons jump from a lower energy level to a higher energy level.
+- Energy is lost when an electron falls from a higher energy level to a lower energy level.
+- Since only definite amounts of energy are emitted, this implies that electrons can occupy only definite energy levels.
+- An absorption spectrum is produced when white light is passed through a gaseous sample of an element.
+- An absorption spectrum consists of dark lines against a coloured background.
+- Heisenberg's uncertainty principle states that it is impossible to measure at the same time both the momentum, and the position of an electron.
+- An orbital is a region in space within which there is a high probability of finding an electron
+- s orbitals are spherical. p orbitals are dumbell-shaped
+- A sublevel is a subdivision of a main energy level and consists of one or more orbitals of the same energy
+  
+---
 
 # Atomic Absorption Spectrometry
 
