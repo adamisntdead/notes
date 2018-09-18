@@ -102,3 +102,32 @@ Things like
 9.  **Cad a dhéanann do dheartháir/do dheirfiúr?** - Ta \_\_\_\_\_\_\_ sa chéad blian so scoile seo
 10. **Cad a dhéanann do thuismitheoirí? Cén post atá ag do thuismitheoiri?** - Is __ é m'athair. Is _ é mo mháithair
 11. **Déan cur síos ar do chara?** - Choose a friend and then say 2/3 things about them
+
+Part 2-------------------------
+
+1. **Cá bhfuil tú do chonai? An maith leat an áit? Cén fáth?** - Whwere do you live, do you like it and why?
+
+Táim i mo chonai i/in \_\_\_\_\_\_\_. 
+Is maith liom / Ní maith liom an áit mar
+
+2. **Cén saghas tí atá agaibh?** - What type of house do you have
+
+Taím i mo chonai i \_\_\_\_\_\_\_.
+
+Words: mór, beag, dhá stór, trí stór, bungaló, sraith, scoite, leathscoile.
+
+1. **Ainmnight na seomraí sa teach?** - Name the rooms in the house
+
+I mo theach tá \_\_\_\_\_\_\_. (Seomra \_\_\_\_\_\_\_
+
+4. **Cén seomra is fear leat sa teach?** - Whats your favourite room in your house
+
+Is fearr liom \_\_\_\_\_\_\_ mar \_\_\_\_\_\_\_
+
+5. **An bhfuil do sheomra leapa féin agat?** - Do you have your own bedroom
+
+Tá seomra leapa féin agat?
+
+6. **An bhfuil comharsana deasa agaibh?** - Do you have nice neighbours?
+
+Tá comharsana deasa again, mar \_\_\_\_\_\_\_ (one sentence).
