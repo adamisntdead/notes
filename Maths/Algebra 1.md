@@ -510,10 +510,63 @@ $$
 
 # Algebraic Identities
 
+
+\begin{definition}{Identity}
+In an identity, all coefficients of like powers area equal. An identity must be true for all values of the independent variable.
+\end{definition}
+
 When you have an equation and have matching coefficients on both sides, then they are equal
 
+\begin{example}{{
+Find the values of $a, b$ and $c$ given
+
 $$
-ax^2 +bx +c = 3x^2 + 2x + 5
+ax^2 + bx + c = 3x^2 + 2x + 5
 $$
 
-You can easily find that $a = 3, b = 2, c = 5$.
+For all values of $x$.
+}}
+\Solution
+\begin{align*}
+a = 3, b = 2, c = 5
+\end{align*}
+\end{example}
+
+\begin{example}{{
+$$
+\frac{1}{(x + 1)(x - 1)} = \frac{A}{(x + 1)} + \frac{B}{(x - 1)}
+$$
+
+For all values of $x$, find values of $A$ and $B$.
+}}
+\Solution
+
+\begin{align*}
+\frac{1}{(x + 1)(x - 1)} &= \frac{A}{(x + 1)} + \frac{B}{(x - 1)} \\
+&= \frac{A(x - 1) + B(x + 1)}{(x + 1)(x - 1)} \\
+\implies 1 &= A(x - 1) + B(x + 1)
+\end{align*}
+
+Since this equation is true for all values of $x$, you can pick two values for x and $A$ and $B$ can be found.\\
+
+Let $x=-1$:
+\begin{align*}
+1 &= A(x - 1) + B(x + 1) \\
+&= A((-1) - 1) + b ((-1) + 1)\\
+&= -2A
+\end{align*}
+
+$$\therefore A = \frac{-1}{2}.$$
+
+Let $x = 1$:
+\begin{align*}
+1 &= A(x - 1) + B(x + 1) \\
+&= A(1 - 1) + b (() + 1)\\
+&= 2B
+\end{align*}
+
+$$\therefore B = \frac{1}{2}$$,
+
+Giving the final answer: $A = \frac{-1}{2}, B = \frac{1}{2}$
+
+\end{example}
