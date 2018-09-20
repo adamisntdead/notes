@@ -186,6 +186,7 @@ $endif$
   
 \begin{document}
 
+
 $if(title)$
 \title{$title$}
 $else$
@@ -204,7 +205,11 @@ $else$
 \author{Adam Kelly}
 $endif$
 
+$if(small)$
+$else$
 \maketitle
+$endif$
+
 
 $if(abstract)$
 \begin{abstract}

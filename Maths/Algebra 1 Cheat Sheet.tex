@@ -172,5 +172,56 @@
   \node[fancytitle, right=10pt] at (box.north west) {Algebraic Identities};
   \end{tikzpicture}
   
+  %------------ Manipulating Formulae ---------------
+  \begin{tikzpicture}
+  \node [mybox] (box){%
+      \begin{minipage}{0.3\textwidth}
+      \textbf{What you do to one side of an equation, you must do to the other.}\\
+     
+     \small{
+          \begin{tabular}{lp{3.85cm} l}
+          In terms of $x$  & Write with $x$ as the independent variable  \\ \hline
+          The subject of & Make it on it's own on one side of the equation \\ \hline
+          As a function of & same as 'in terms of'\end{tabular}}
+
+      \end{minipage}
+  };
+  %------------ Manipulating Formulae Header ---------------------
+  \node[fancytitle, right=10pt] at (box.north west) {Manipulating Formulae};
+  \end{tikzpicture}\\
+  
+   %------------ Solving Linear Equations  ---------------
+  \begin{tikzpicture}
+  \node [mybox] (box){%
+      \begin{minipage}{0.3\textwidth}
+      Linear equations can be solved by making x with subject of the equation.\\
+ 	  Example: Solve $4x + 2 = 14$
+ 	  \begin{align*}
+ 	   4x + 2 &= 14\\
+ 	    \implies 4x &= 14 - 2 = 12\\
+ 	    \implies x &= \frac{12}{4} = 3 
+      \end{align*}
+      \end{minipage}
+  };
+  %------------ Solving Linear Equations Header ---------------------
+  \node[fancytitle, right=10pt] at (box.north west) {Solving Linear Equations};
+  \end{tikzpicture}
+  
+  %----------- Solving Linear Systems Of Equations  ---------------
+  \begin{tikzpicture}
+  \node [mybox] (box){%
+      \begin{minipage}{0.3\textwidth}
+      1. Reduce the three equations to two by eliminating one of the unknowns.\\
+      2. Choose an unknown to isolate.\\
+      3. Eliminate this unknown from all three equations, taking them two at a time.\\
+      4. Solve these two equations.\\
+      5. Use the solutions as values in the original equations\\
+      6. Check your solution!
+      \end{minipage}
+  };
+  %------------ Solving Linear Systems Of Equations Header ---------------------
+  \node[fancytitle, right=10pt] at (box.north west) {Systems of Equations With Three Variables};
+  \end{tikzpicture}
+  
   \end{multicols*}
   \end{document}
