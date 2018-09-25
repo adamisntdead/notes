@@ -78,16 +78,6 @@ Conas atá tú? Aon scéal agat dom? Go raibh maith agat as ucht an litir a sheo
 
 **Note:** You should add something extra to reinforce the topic you are being asked to write about.
 
-## Críoch
-
-Bheul, caithfidh mé imeacht anois. Tá mé ag dul amach le mo chlann. Abair le don chlann go raibh mé ag chuir a dtuairisce. Scríobh chugam le casadh an phoist. Táim ag tnúth go mór le do litir.
-
-
-
-**Translation**: Well I have to go now. I am going out with my family. Tell your family I was asking for them. Write to me soon.
-
-**Note**: If you are writing to your family, change 'dul amach le mo chlann' to something like 'dul amach le mo chairde'. You may also have to change 'don chlann' to 'gach duine'.
-
 ## Coirp
 
 This section should be 3-4 paragraphs, usually 3 is enough.
@@ -107,4 +97,11 @@ This paragraph depends on if you are home yet.
 
 - Abhaile? (When did/will you go home)
 - Cad a dhéanfaidh tú? What will you do (activitied there or what will you do at home)
-  
+
+## Críoch
+
+Bheul, caithfidh mé imeacht anois. Tá mé ag dul amach le mo chlann. Abair le don chlann go raibh mé ag chuir a dtuairisce. Scríobh chugam le casadh an phoist. Táim ag tnúth go mór le do litir.
+
+**Translation**: Well I have to go now. I am going out with my family. Tell your family I was asking for them. Write to me soon.
+
+**Note**: If you are writing to your family, change 'dul amach le mo chlann' to something like 'dul amach le mo chairde'. You may also have to change 'don chlann' to 'gach duine'.

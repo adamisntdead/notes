@@ -131,3 +131,52 @@ Tá seomra leapa féin agat?
 6. **An bhfuil comharsana deasa agaibh?** - Do you have nice neighbours?
 
 Tá comharsana deasa again, mar \_\_\_\_\_\_\_ (one sentence).
+
+7. **Ag Cabhraí sa bhaile**
+
+Carbraím le mo thuismitheoirí sa bhaile, \_\_\_\_\_\_\_, \_\_\_\_\_\_\_ agus \_\_\_\_\_\_\_.
+
+ - Cóirím mo leave gach maiden.
+ - Glanaim mo sheomra, suas tar éis an dinnéar.
+ - Nighim na gréithe maisa, soithí. M'éadaí féin, an t-úrlár....
+ - Scuabaim an t-úrlár
+ - Siúilim an madra gach tráthnóna
+ - Tugaim bia do na hainmithe
+
+8. **Ainmnight na háiseanna atá i do cheantar.** - Name the facilities in your area
+
+I mo ceantar tá \_\_\_\_\_\_\_ (8-10).
+
+- Scoileanna
+- Bainc
+- Oific An Phoist
+- Bialanna
+- Club rugbaí
+- Club leadoige
+- Leabharlann
+- Fiaclóir
+- Doctúir
+- Ionid Pobail
+- Pairceanna Imeartha (playing field)
+
+9. **Céard iad na siopaí atá i do cheantar?** - What stores are in your area?
+
+Tá a lán siopaí i mo cheantar cosúil leis an \_\_\_\(8-10)_\_\_\_ agus \_\_\_\_\_\_\_.
+
+- Búistéir
+- Siopa spóirt
+- Siopa eadaí,
+- Siopa leabhair, Skerries Bookshop
+- Siopa bréagáin, The Bubble Room
+- Siopa grósaera, Gerry's
+- Siopa Uachtar Reoite
+
+10. **Céard a dhéanann daoine óga i do cheantar?** - What do young people in your area do?
+
+Tá a lán le déanamh anseo mar shampla (x3).
+
+Níl a lán le déanamh sa bhaile seo, bíonn daoine óga ag dul amach ar an mbóthar lena gcairde mar nach bhfuil aon áit éile le dul. Níl pictiúrlann anseo fin.
+
+11. **An dtéann tú ag siopadóireacht go minic?** - Do you go shopping often?
+
+Téim ag siopadóireacht go minic. Téim go dtí an Sórd. Téim isteach go lár na cathrach ar an traein. An siopa is fearr liom ná

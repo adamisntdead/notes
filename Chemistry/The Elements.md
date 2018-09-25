@@ -49,4 +49,59 @@ Mendeleev's - Increasing weight + properties. He looked at properties, which mea
 - He predicted the properties of undiscovered elements
 - Revered the order of some elements (Few cases, he reversed the order of elements in order to make them fall into groups of elements with similar properties - properties more important then weights, when atomic number came around, that fit perfectly)
 
-Henry Moseley. Measured the number of protons in the nuclei of the atom (atomic number).
+**Henry Moseley** measured the number of protons in the nuclei of the atom (atomic number).
+
+Mendeleev found that if you order by atomic number, you don't need to reverse, hence the modern periodic table.
+
+## The Modern Periodic Table
+
+Differences between mendeleev's table and the modern one
+
+- Elements are arranged by **increasing atomic number** (not mendeleev's atomic weight)
+- There are **more elements** in the modern table
+- There are no gaps
+- Transiton elements are listed in a seperate block
+
+(Put in table 4.3)
+
+
+
+## Using it
+
+You will need to be able to:
+
+- Obtain atomic numbers and mass numbers
+- Obtainig relative atomic masses
+- Writing electron configurations
+
+
+
+## Mass number & Atomic Number
+
+(Labeled picture of an element)
+
+Mass number is always the bigger number.
+
+Atomic nunber gives the number of protons
+
+Every atom is neutral, thus there is the same number of protons and electrons.
+
+To get the number of neutrons, take the number of protons from the mass number.
+
+The mass number is the sum of the protons and neurons in the element. (the electron mass can be ignored).
+
+### Relative Atomic Mass
+
+Relative atomic mass is the average atomic mass of the isotopes of an elements
+
+
+
+Francis William Aston developed the 'mass spectrometer'. He found that neon consisted of two varietioes of neon atoms. One type had a mass number of 20, the other had 22..
+
+He called these **isotopes**.
+
+\begin{definition}{Isotopes}
+
+Isotopes are atoms of the same element which have different mass numbers due to the diferent number of neutrons in the nucleus.
+
+\end{definition}

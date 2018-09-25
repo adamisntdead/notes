@@ -51,9 +51,14 @@ An orbital is a region in space where there is a high probability of finding an 
 A sublevel is a subdivision of a main energy level that consists of one or more orbitals of the same energy.
 \end{definition}
 
-<!-- 
 # The Periodic Table
 
 \begin{definition}{Element}
 An element is a substance that cannot be split into a simpler substance by chemical means.
-\end{definition} -->
+\end{definition} 
+
+\begin{definition}{Isotopes}
+
+Isotopes are atoms of the same element which have different mass numbers due to the diferent number of neutrons in the nucleus.
+
+\end{definition}
