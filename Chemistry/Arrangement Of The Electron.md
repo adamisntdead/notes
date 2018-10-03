@@ -66,6 +66,10 @@ Remember the two exceptions,
 
 These two elements don't fill 4s, rather making it more stable.
 
+\begin{definition}{Aufbau Principle}
+When building up the electron configuration of an atom in it's ground state, the electrons occupy the lowest available energy levels.
+\end{definition}
+
 ## Example
 
 Write the electron config for boron, 

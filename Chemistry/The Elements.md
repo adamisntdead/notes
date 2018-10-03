@@ -105,3 +105,34 @@ He called these **isotopes**.
 Isotopes are atoms of the same element which have different mass numbers due to the diferent number of neutrons in the nucleus.
 
 \end{definition}
+
+# Mass Spectrometer
+
+\begin{definition}{Principle of Mass Spectrometry}
+Charged particles moving in a magnetic field are deflected to different extents according to their masses,
+and are thus separated according to these masses.
+\end{definition}
+
+The mass spectrometer has a few stages:
+
+1. Vaporisation - A small amount of gas or liquid is injected, and the vacuum means they turn quickly to gas.
+2. Ionisation - An electron gun (heated filament that gives off electrons). High energy electrons are fired at the atoms, knocking electrons off the atom. This produces positive ions.
+3. Acceleration - The positively charged ions go through negatively charged plates. They attract and travel faster.A fine beam of ions go to the analyzer.
+4. Separation in a magnetic field - There is a curved path with a magnetic field, produced by an electromagnet. The lighter particles are easier to deflect. The heavier particles are hard, thus the lighter ions are pushed more off course then heavier ions.
+5. Detection - The positive ions fall on a sensitive detector. This is amplified to produce a strong signal, then printed out.
+
+Uses:
+
+- Identify the presence of isotopes
+- Tells how many of each isotope is present
+- measures relative atomic masses and relative molecular masses
+- Identifies unknown compounds - Detection of banned substances, forensic science
+
+You should know the principle and the names of the stages.
+Principle - Positively charged particles, moving in a magnetic field according to mass.
+
+# Arrangement of electron in orbitals of equal energy
+
+\begin{definition}{Hund's Rule of Maximum Multiplicity}
+When two or more orbitals of equal energy are available, the electrons occupy them singly before filling them in pairs.
+\end{definition}
