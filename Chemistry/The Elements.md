@@ -2,7 +2,7 @@
 title: "The Periodic Table"
 ---
 
-
+http://leaving-cert-notes.weebly.com/the-periodic-table.html
 
 \section*{Summary}
 
@@ -22,9 +22,11 @@ You will need to know:
 An element is a substance that can't be split into simpler substances by chemical means.
 \end{definition}
 
-Robert Boyle - gave first accurate definition of an element:
+* **Robert Boyle**: First accurate definition of an element (above)
+* **Humphry Davy**: Found when you get a compound and pass electricity through it, you break it down into it's elements (electrolysis).
+* **Henry Mosely**:
 
-`A simple substance that can't be broken into anything simpler`.
+Robert Boyle - gave first accurate definition of an element: *A simple substance that can't be broken into anything simpler*
 
 
 It's because of humphrey davy that discovered:
@@ -66,7 +68,7 @@ Differences between mendeleev's table and the modern one
 
 
 
-## Using it
+### Using it
 
 You will need to be able to:
 
@@ -76,7 +78,7 @@ You will need to be able to:
 
 
 
-## Mass number & Atomic Number
+### Mass number & Atomic Number
 
 (Labeled picture of an element)
 
@@ -106,7 +108,7 @@ Isotopes are atoms of the same element which have different mass numbers due to 
 
 \end{definition}
 
-# Mass Spectrometer
+## Mass Spectrometer
 
 \begin{definition}{Principle of Mass Spectrometry}
 Charged particles moving in a magnetic field are deflected to different extents according to their masses,
@@ -115,11 +117,18 @@ and are thus separated according to these masses.
 
 The mass spectrometer has a few stages:
 
-1. Vaporisation - A small amount of gas or liquid is injected, and the vacuum means they turn quickly to gas.
-2. Ionisation - An electron gun (heated filament that gives off electrons). High energy electrons are fired at the atoms, knocking electrons off the atom. This produces positive ions.
-3. Acceleration - The positively charged ions go through negatively charged plates. They attract and travel faster.A fine beam of ions go to the analyzer.
-4. Separation in a magnetic field - There is a curved path with a magnetic field, produced by an electromagnet. The lighter particles are easier to deflect. The heavier particles are hard, thus the lighter ions are pushed more off course then heavier ions.
-5. Detection - The positive ions fall on a sensitive detector. This is amplified to produce a strong signal, then printed out.
+
+1. Vaporization: Non-gaseous samples are vaporised by a heater
+2. Ionisation: An electron gun produces a beam of high energy electrons. When an atom is bombarded by the beam it can loose an electron to form a positive ion.
+
+$$
+Eg \space Ng + e^-\rightarrow Ne^+ + 2e^-
+$$
+
+3. Acceleration: The ions are accelerated to a high speed using an electric field.  (Negatively)
+4. Separation: The ions are then seperated by using a magnetic field, which deflects according to the masses. Lighter particles are deflected more.
+
+**V**iagra **i**s **a** **s**ex **d**rug
 
 Uses:
 
@@ -129,9 +138,9 @@ Uses:
 - Identifies unknown compounds - Detection of banned substances, forensic science
 
 You should know the principle and the names of the stages.
-Principle - Positively charged particles, moving in a magnetic field according to mass.
+Principle - Positively charged ions are separated on the basis of their **relative** masses when moving in a magnetic field
 
-# Arrangement of electron in orbitals of equal energy
+## Arrangement of electron in orbitals of equal energy
 
 \begin{definition}{Hund's Rule of Maximum Multiplicity}
 When two or more orbitals of equal energy are available, the electrons occupy them singly before filling them in pairs.
