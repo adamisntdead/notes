@@ -58,7 +58,17 @@ An element is a substance that cannot be split into a simpler substance by chemi
 \end{definition} 
 
 \begin{definition}{Isotopes}
+Isotopes are atoms of the same element which have different mass numbers due to the different number of neutrons in the nucleus.
+\end{definition}
 
-Isotopes are atoms of the same element which have different mass numbers due to the diferent number of neutrons in the nucleus.
+\begin{definition}{Aufbau Principle}
+When building up the electron configuration of an atom in it's ground state, the electrons occupy the lowest available energy level.
+\end{definition}
 
+\begin{definition}{Hund's Rule of Maximum Multiplicity}
+When two or more orbitals of equal energy are available, the electrons occupy them singly before filling them in pairs.
+\end{definition}
+
+\begin{definition}{Pauli Exclusion Principle}
+No more then two electrons may occupy an orbital, and they must have opposite spin.
 \end{definition}
