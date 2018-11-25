@@ -39,6 +39,10 @@ $endif$
   % using explicit options in \includegraphics[width, height, ...]{}
   \setkeys{Gin}{width=\maxwidth,height=.5\maxheight,keepaspectratio}
   $endif$
+
+  $if(small-graphics)$
+  \setkeys{Gin}{width=0.5\maxwidth,height=\maxheight,keepaspectratio}
+  $endif$
   
   $for(header-includes)$
   $header-includes$

@@ -369,3 +369,59 @@ LEWIS STRUCTURE OF CH4
 
 There is 0lp and 4 bp
 
+# Valence Shell Electron Pair Repulsion Theory (VESPR Theory)
+
+The shape of a molecule depends on the number of pairs of electrons around the central atom. Electrons are negatively charged, pairs repel each other and want to be as far apart as possible. 
+
+Lone pairs have a greater repelling force than bonding.
+
+
+
+ADD TABLE LIKE https://chem.libretexts.org/Textbook_Maps/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Chemical_Bonding/Lewis_Theory_of_Bonding/Geometry_of_Molecules
+
+
+
+All bond pairs spread equally. When a lone pair is added, they spread.
+
+This inequality explains how electrons repel eachother in the bond.
+
+
+
+Repelling power:
+
+$lplp > lpbp > bpbp$
+
+
+
+Lone pair electrons have a greater repelling effect compared to bond pair electrons, disturbing the bond angle.
+
+
+
+# Shape and Polarity
+
+Symmetry can also have an eeffect on the polarity of a molecule
+
+We need to be able to look at where the center of negative and positive charg lies.
+
+
+
+Non-polar molecules have the centre of the positive and negative charges in one location.
+
+THere isn an equal pull on the e^- even though the individual bonds may be polar.
+
+Examples: CH4, BF3, BeH2
+
+
+
+## Symetry and Polarity in Molecules
+
+
+
+Polar molecules have a center of positive charge seperated from the centre of the negative charge
+
+Even though the individial bonds may be non-polar, the overall molecule is polar
+
+Example: NH3 and H2O
+
+
+

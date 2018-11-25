@@ -13,3 +13,4 @@
 # If you do not have GNU parallel installed, you can comment this out and 
 # Use the above
 find Maths Applied\ Maths Chemistry Physics -name "*.md" | parallel 'echo "Converted {} to {.}.pdf" && mkdir -p PDFs/{//} && pandoc --template notes-template.tex  {} -o PDFs/{.}.pdf'
+find Irish/Oral/Sraith\ Pictúir -name "*.md" | parallel 'echo "Converted {} to {.}.pdf" && mkdir -p PDFs/{//} && pandoc --template notes-template.tex  {} -o PDFs/{.}.pdf'
