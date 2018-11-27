@@ -1,6 +1,8 @@
 
 # Created by https://www.gitignore.io/api/node,macos,linux,latex,windows
 
+tex2pdf-*
+
 ### LaTeX ###
 ## Core latex/pdflatex auxiliary files:
 *.aux
