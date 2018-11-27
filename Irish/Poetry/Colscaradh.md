@@ -2,8 +2,6 @@
 
 > Le Pádraig Mac Suibhne
 >
-> Note: \*\* means 'commonly mispronounced'.
->
 > Listen to it [being read](https://www.youtube.com/watch?v=jROS5inp25Q)
 
 ```
