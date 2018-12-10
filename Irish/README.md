@@ -60,3 +60,28 @@ The irish exam is made up of 2 parts
     * The examiner asks you 3 questions
 * Comhra (conversation)
     * 120 marks
+
+
+## Filíocht agus Prós
+
+### Filíocht
+
+* 3 parts - 8/8/9 marks **usually!**
+* Topics
+    * SQ's (i) - 4 x 2 marks
+    * Téama
+    * Mothúchá(i)n (usually just one)
+    * Caractar
+    * Iomhanna
+    * Barúl
+
+### Prós
+
+* Achoimre - 25 mark
+* Question - 5 x 5 marks
+    * Achoimre
+    * Teama
+    * Caractar
+    * Barúl (sceal nó caractar)
+    * Mothúchá(i)n (again, usually just one)
+* Príomhimeachtaí - Achoimre (5 main events)

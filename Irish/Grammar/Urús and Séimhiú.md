@@ -141,7 +141,7 @@ m.s. rófhuair
 
 
 
-### 'a' before a berb in a question
+### 'a' before a verb in a question
 
 m.s. Conas a dhéanann...? Cé a bhíonn?
 
@@ -149,21 +149,9 @@ m.s. Conas a dhéanann...? Cé a bhíonn?
 
 
 
-Theach
+## Example
 
-chonaiceamar
 
-gcairde
 
-Bhaile
-
-gcrosta
-
-ngarda
-
-siopadóir
-
-bpádraig
-
-gcaill
+Inné bhí mé i mo **rang** Gaeilge le mo cairde. Bhí an múinteoir an-crosta leis an rang mar bhí siad rócainteach agus róglórach. Chaill Ciarán a peann nuair a shuí sé ina cathaoir agus thosaigh sé ag tabhairt amach. Bíonn Seán i chonaí ag caint ar sciouk agus mar sin bíonn sé i trioblóid i cónaí. Níor thug Úna aon cabhair dom leis an Gaeilge agus bhí mé an-crosta léi De gnáth nuair a fillim ón scoil, déanaim mo cuid obair bhaile má bíonn aon obair againn. Ach aréir ní raibh aon obair bhaile agam. mé ag féachaint ar an dteilifís. D'fhéach mé ar dhá cláir teilifise. Dúirt an nuacht go raibh seacht timpiste ar an bóthar inné.
 
