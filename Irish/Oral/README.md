@@ -180,3 +180,35 @@ Níl a lán le déanamh sa bhaile seo, bíonn daoine óga ag dul amach ar an mb�
 11. **An dtéann tú ag siopadóireacht go minic?** - Do you go shopping often?
 
 Téim ag siopadóireacht go minic. Téim go dtí an Sórd. Téim isteach go lár na cathrach ar an traein. An siopa is fearr liom ná
+
+12. **Cá bhfuil tú ag dul ar scoil?** - Where do you go to school?
+
+Freastalaím ar Cholaiste Phobal na Sceirí.
+
+13. **Cén saghas scoil í?** - What type of school is it?
+
+Is pobalscoil measctha í.
+
+14. **Déan cur síos ar an scoil** - Describe the school
+
+Is foirgneamh sort sean aimseartha í.
+Tá cuid den scoil dhá stór agus tá cuid eile aon stór. Sa gheimreadh bíonn sí an-fhuar ach sa samhradh bíonn sí róthé.
+Tá cúpla gairdín álainn sa scoil ach níl cead againn dul amach ann.
+
+
+52. **Cad iad na buanna/lochgtanna is mó atá ar fáil sa choras oideachas in Éirinn?** - What are the pros and cons of the irish education system.
+
+Tá ceann de na laethanta is faide san Eorap againn anseo.
+In a lán tíortha eile níl aon éide scoile acu, cheapaim gur smaoineamh maith é éide scoile.
+Téann a lán daltaí Éireannacha ar aghaidh go dtí oideachas triú léibheal.
+Ceapaim go bhfuil corás oideachas maith sa tír seo.
+
+53. **An raibh post páirtaimsire agat riamh?**
+
+Bhí/Tá post páirtaimsire agam (an samhradh seo chaite).
+
+Ní raibh post páirtaimsire fós, ach ba mhaith liom ceann a fháil don samhradh seo chugainn.
+
+54. **Cá raibh/bhfuil tú ag obair?**
+
+Bhí mé/Táim ag obair i/in/sa ...

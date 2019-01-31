@@ -65,3 +65,11 @@
 12. Cén t-eolas a raibh ar an bhfógra i pictiúr _____________?
 
 13. Cén fáth a raibh <u>mothuchán</u> ar ______________________ i bpictiúr ___________________?
+
+62. Cad é an fadhb is mó atá ag daoine óga dar leat?
+
+I mo thurairm is iad na mheáin soisialta an fadhb is mó atá ag daoine óga. Tá a lán brú orainn íomha iontach dúinn féin brú orainn íomha iontach dúinn féin a chuir ar na aipeanna cosúil Snapchat agus Instagram. Freisin ar na mhéain seo feicimid na daoine cáiliúla agus a saolta iontacha ach ní fhaighimid fíoríomhá agus ceapann a lán daoine óga go bhfuil orthu coinneál suas le daoine mar seo.
+
+63. an gceapann tú go bhfuil fadhb againn le téamh domhanda faoi láthair?
+
+Tá fadhb ullmhór againn le teamh domhanda ach ceapaim go bhfuil daoine ag tosú feabhas a chuir ar trí nidaí a dhánamh cosúil le athchursáil.
